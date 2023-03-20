@@ -1,0 +1,10 @@
+agentMode: "locobot"
+fieldOfView: 63.4
+valid_agent_heights:
+  - 0.8697997
+
+horizons:
+  - -30
+  - 0
+  - 30
+  - 60

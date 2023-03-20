@@ -1,0 +1,7 @@
+agentMode: "stretch"
+fieldOfView: 85
+valid_agent_heights:
+  - 1.27899
+
+horizons:
+  - 0

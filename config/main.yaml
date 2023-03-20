@@ -1,0 +1,33 @@
+defaults:
+  - agent: ???
+  - domain: ???
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+  - _self_
+
+# "train", "val", or "test"
+split: ???
+
+rotate_step_degrees: 30
+visibility_distance: 1
+
+# The number of agent positions to sample when checking if an object is visible.
+max_agent_positions: 12
+
+min_visible_count: 3
+tasks_per_target_object: 100
+
+max_reachable_positions: 50
+
+medium_range:
+  - 0.2
+  - 0.6
+
+machine:
+  processes: 8
+
+dataset:
+  name: "procthor-1k"
+  entity: "Ram81"
+  revision: "main"
+  scene_config: "/coc/testnvme/rramrakhya6/fall_2022/procthor-eval-generation/outputs/house_configs/procthor-1k/attribute_onav_val.json"
